@@ -4337,13 +4337,12 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0,
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
-graphviz-react@^1.1.1:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/graphviz-react/-/graphviz-react-1.2.0.tgz#ec2fafc5482569408576e1d6844cf62fbe8dda3d"
-  integrity sha512-C3V0LGLSs/gGskGwh5r8QGqGhc3D+H7b+vVGATG6ME5R50FYSl/cQNTTu9p4uOeWlHClVtL/wVZr+/+as9yBKg==
+graphviz-react@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/graphviz-react/-/graphviz-react-1.2.5.tgz#928669d230c0f40db6d3f83430d38ff612603b10"
+  integrity sha512-IRFDzEt09hRzfqrrvAW1PAPBqG4t8hykArcoxq7UhEqO5RUKCBN6126D6rjiL2QAwAznbUSg0Fba2RnSH2V4sA==
   dependencies:
     d3-graphviz "^2.6.1"
-    react "^16.13.1"
 
 gray-matter@^4.0.2:
   version "4.0.3"
@@ -7012,15 +7011,6 @@ react-textarea-autosize@^8.3.2:
     "@babel/runtime" "^7.10.2"
     use-composed-ref "^1.0.0"
     use-latest "^1.0.0"
-
-react@^16.13.1:
-  version "16.14.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
-  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
 
 react@^17.0.1:
   version "17.0.2"
