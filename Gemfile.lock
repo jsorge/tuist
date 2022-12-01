@@ -199,6 +199,8 @@ GEM
     netrc (0.11.0)
     nokogiri (1.11.4-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.4-x86_64-linux)
+      racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -228,7 +230,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
     rainbow (3.0.0)
-    rake (13.0.3)
+    rake (13.0.6)
     regexp_parser (2.1.1)
     representable (3.1.1)
       declarative (< 0.1.0)
@@ -307,6 +309,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   byebug (~> 11.1)
