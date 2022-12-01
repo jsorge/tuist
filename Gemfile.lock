@@ -33,7 +33,7 @@ GEM
     claide (1.0.3)
     cli-kit (3.3.0)
       cli-ui (>= 1.1.4)
-    cli-ui (1.5.1)
+    cli-ui (2.1.0)
     cocoapods (1.10.1)
       addressable (~> 2.6)
       claide (>= 1.0.2, < 2.0)
@@ -199,6 +199,8 @@ GEM
     netrc (0.11.0)
     nokogiri (1.11.4-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.4-x86_64-linux)
+      racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -307,11 +309,12 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   byebug (~> 11.1)
   cli-kit (~> 3.3)
-  cli-ui (~> 1.5)
+  cli-ui (~> 2.1)
   cocoapods (~> 1.10)
   colorize (~> 0.8.1)
   cucumber (~> 6.0)
