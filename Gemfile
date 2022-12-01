@@ -24,7 +24,7 @@ gem "down", "~> 5.2"
 gem "ejson", "~> 1.2"
 
 group :test do
-  gem "mocha", "~> 1.12"
+  gem "mocha", "~> 2.0"
   gem "minitest"
   gem "minitest-reporters"
 end
