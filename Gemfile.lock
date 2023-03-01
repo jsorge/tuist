@@ -199,6 +199,8 @@ GEM
     netrc (0.11.0)
     nokogiri (1.11.4-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.4-x86_64-linux)
+      racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -303,10 +305,11 @@ GEM
       claide (>= 1.0.2, < 2.0)
       colored2 (~> 3.1)
       nanaimo (~> 0.3.0)
-    zeitwerk (2.4.2)
+    zeitwerk (2.6.7)
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   byebug (~> 11.1)
@@ -336,7 +339,7 @@ DEPENDENCIES
   simctl (~> 1.6)
   thor (~> 1.1)
   xcodeproj (~> 1.19)
-  zeitwerk (~> 2.4)
+  zeitwerk (~> 2.6)
 
 RUBY VERSION
    ruby 3.0.1p64
